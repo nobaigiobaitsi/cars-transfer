@@ -1,16 +1,16 @@
-import './first-body.css'
+import "./first-body.css";
 
-
-
-function FirstBody() {
+const Hero = () => {
   return (
     <>
-    <div className="first-body">
-      <h1>Welcome to Greek End Transfers</h1>
-      <p>est. 2020</p>
-    </div>
+      <section className="hero">
+        <div className="hero-text">
+          <h1>Greek End Transfers</h1>
+          <p>Est. 2020 – Your gateway to adventures</p>
+        </div>
+      </section>
     </>
   );
-}
+};
 
-export default FirstBody;
+export default Hero;
