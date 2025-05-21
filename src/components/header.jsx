@@ -1,16 +1,16 @@
-import './header.css'
-import logo from "../images/header-logo.png";
+import React from "react";
+import "./Header.css";
+import logo from "../images/main-logo.jpg";
 
-
-function Header() {
+const Header = () => {
   return (
-    <>
-        <header>
-            <img src={logo} alt="Company Logo" />
-            <h1>Greek End Transfers</h1>
-        </header>
-    </>
-  )
-}
+    <header className="header">
+      <div className="logo-title">
+        <img src={logo} alt="Greek End Transfers Logo" className="logo" />
+        <h1 className="site-title">Greek End Transfers</h1>
+      </div>
+    </header>
+  );
+};
 
-export default Header
+export default Header;
