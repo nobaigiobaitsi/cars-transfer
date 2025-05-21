@@ -1,4 +1,3 @@
-import React from "react";
 import './header.css'
 import logo from "../images/header-logo.png";
 
