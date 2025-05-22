@@ -6,8 +6,8 @@ const Header = () => {
     <header className="header">
       <div className="logo-title">
         <img src={logo} alt="Greek End Transfers Logo" className="logo" />
-        <h1 className="site-title">Greek End Transfers</h1>
-        <p className="established">est. 2020</p>
+        <h1 className="site-title">Greekend Transfers</h1>
+        <p className="established">est. 2021</p>
       </div>
     </header>
   );
