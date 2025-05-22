@@ -4,6 +4,24 @@
   box-sizing: border-box;
 }
 
+.section-divider {
+  border: none;
+  height: 12px;
+  background: linear-gradient(to bottom, 
+    #003366 0%, #00509e 20%, #3399ff 40%, 
+    rgba(255, 255, 255, 0.1) 47%, 
+    rgba(255, 255, 255, 0.1) 53%, 
+    #3399ff 60%, #00509e 80%, #003366 100%);
+  margin: 3rem 0;
+  border-radius: 4px;
+  transition: box-shadow 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0, 80, 158, 0.4);
+}
+
+.section-divider:hover {
+  box-shadow: 0 0 10px 2px #3399ff;
+}
+
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;

@@ -10,7 +10,10 @@ createRoot(document.getElementById('root')).render(
   <StrictMode>
     <Header />
     <HeroSection />
+    <hr className="section-divider" />
     <Info />
+    <hr className="section-divider" />
     <Fleet />
+    <hr className="section-divider" />
   </StrictMode>,
 )
