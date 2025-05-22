@@ -5,6 +5,7 @@ import Header from './components/header.jsx'
 import HeroSection from './components/hero-section.jsx'
 import Info from './components/info.jsx'
 import Fleet from './components/fleet.jsx'
+import Contact from './components/contact.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -15,5 +16,6 @@ createRoot(document.getElementById('root')).render(
     <hr className="section-divider" />
     <Fleet />
     <hr className="section-divider" />
-  </StrictMode>,
+    <Contact />
+  </StrictMode>
 )
