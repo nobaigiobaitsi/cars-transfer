@@ -32,7 +32,7 @@ body {
   margin: 0;
   min-width: 320px;
   min-height: 100vh;
-  overflow-x: hidden; /* ✅ Prevent horizontal scroll */
+  overflow-x: hidden;
   font-family: inherit;
 }
 
@@ -72,3 +72,4 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
