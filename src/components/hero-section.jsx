@@ -1,4 +1,4 @@
-import "./first-body.css";
+import "./hero-section.css";
 
 const Hero = () => {
   return (
