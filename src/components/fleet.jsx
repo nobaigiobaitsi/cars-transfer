@@ -5,7 +5,7 @@ import car3 from '../images/car3.jpg';
 
 const Fleet = () => {
   return (
-    <div className="fleet">
+    <div className="fleet" id="fleet">
       <h2 className="fleet-header">Explore Our Premium Fleet</h2>
       <div className="fleet-item">
         <img src={car1} alt="Car 1" className="fleet-image left" />

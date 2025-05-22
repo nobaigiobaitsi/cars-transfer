@@ -47,6 +47,23 @@
   font-style: italic;
 }
 
+.nav-menu {
+  display: flex;
+  gap: 2rem;
+}
+
+.nav-menu a {
+  text-decoration: none;
+  color: #B1E2F3;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.nav-menu a:hover {
+  color: #ffffff;
+  text-shadow: 0 0 10px #fff;
+}
+
 @media (max-width: 600px) {
   .header {
     padding: 0.75rem 1rem;

@@ -2,9 +2,9 @@ import "./info.css";
 
 const Info = () => {
   return (
-    <div className="info">
+    <div className="info" id="info">
       <div className="info-overlay">
-        <h2 className="info-title">Why Choose Us</h2>
+        <h2 className="info-title">Welcome to Greekend Transfers</h2>
         <p className="info-description">
           At Greekend Transfers, we’re more than just a car rental service — we’re your trusted travel partner. 
           Whether you're heading to a business meeting or exploring the city, our fleet is always clean, modern, and reliable. 

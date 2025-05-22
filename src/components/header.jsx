@@ -10,10 +10,12 @@ const Header = () => {
           <h1 className="site-title">Greekend Transfers</h1>
           <p className="established">est. 2021</p>
         </div>
-        <a href="#contact" className="contact-button">
-          Contact
-        </a>
       </div>
+      <nav className="nav-menu">
+        <a href="#info">Info</a>
+        <a href="#fleet">Fleet</a>
+        <a href="#contact">Contact</a>
+      </nav>
     </header>
   );
 };
