@@ -1,29 +1,35 @@
 import "./fleet.css";
+import car1 from '../images/car1.jpg';
+import car2 from '../images/car2.jpg';
+import car3 from '../images/car3.jpg';
 
 const Fleet = () => {
   return (
     <div className="fleet">
-      <h2>Our Fleet</h2>
-      <p>We offer a wide range of vehicles to suit your needs, from luxury sedans to spacious vans.</p>
-      <div className="fleet-cards">
-        <div className="card">
-          <img src="car1.jpg" alt="Car 1" />
+      <h2 className="fleet-header">Explore Our Premium Fleet</h2>
+      <div className="fleet-item">
+        <img src={car1} alt="Car 1" className="fleet-image left" />
+        <div className="fleet-info">
           <h3>Luxury Sedan</h3>
-          <p>Comfortable and stylish for all occasions.</p>
+          <p>Comfortable and stylish, perfect for VIP transfers or business travel. Leather interior, AC, Wi-Fi.</p>
         </div>
-        <div className="card">
-          <img src="car2.jpg" alt="Car 2" />
-          <h3>Spacious Van</h3>
-          <p>Perfect for groups and families.</p>
+      </div>
+      <div className="fleet-item reverse">
+        <img src={car2} alt="Car 2" className="fleet-image right" />
+        <div className="fleet-info">
+          <h3>Premium Minivan</h3>
+          <p>Spacious and reliable, ideal for families and small groups. Up to 7 passengers with ample luggage space.</p>
         </div>
-        <div className="card">
-          <img src="car3.jpg" alt="Car 3" />
-          <h3>SUV</h3>
-          <p>Ideal for off-road adventures.</p>
+      </div>
+      <div className="fleet-item">
+        <img src={car3} alt="Car 3" className="fleet-image left" />
+        <div className="fleet-info">
+          <h3>Motorhome Camper Van</h3>
+          <p>Travel Greece freely with all the comforts of home — beds, kitchenette, and onboard bathroom.</p>
         </div>
       </div>
     </div>
   );
-}
+};
 
 export default Fleet;

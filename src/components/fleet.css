@@ -1,29 +1,64 @@
 .fleet {
   position: relative;
   width: 100%;
-  height: 100vh;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  padding: 4rem 2rem;
+  background: linear-gradient(to bottom, #2c3e50, #34495e);
+  background-attachment: fixed;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+  flex-direction: column;
+  gap: 4rem;
+  z-index: 0;
 }
 
-.fleet::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  background: url('../images/background-logo.jpg') center/cover no-repeat;
-  filter: blur(8px);
-  opacity: 0.5;
-  z-index: -1;
-  overflow: hidden;
-  transform: scale(1.05);
+.fleet-header {
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 3rem;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6);
+  letter-spacing: 1px;
+}
+
+
+.fleet-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.fleet-item.reverse {
+  flex-direction: row-reverse;
+}
+
+.fleet-image {
+  flex: 1 1 300px;
+  max-width: 500px;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.fleet-info {
+  flex: 1 1 300px;
+  color: #002b5c;
+  background: rgba(255, 255, 255, 0.8);
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(4px);
+}
+
+.fleet-info h3 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.fleet-info p {
+  font-size: 1.1rem;
+  line-height: 1.6;
 }
