@@ -7,6 +7,7 @@ const Header = () => {
       <div className="logo-title">
         <img src={logo} alt="Greek End Transfers Logo" className="logo" />
         <h1 className="site-title">Greek End Transfers</h1>
+        <p className="established">est. 2020</p>
       </div>
     </header>
   );

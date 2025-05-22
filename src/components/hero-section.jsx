@@ -3,12 +3,15 @@ import "./hero-section.css";
 const Hero = () => {
   return (
     <>
-      <section className="hero">
+    <div className="hero">
+      <div className="hero-overlay">
         <div className="hero-text">
-          <h1>Greek End Transfers</h1>
-          <p>Est. 2020</p>
+          <h1>Your journey matters</h1>
+          <h2>And we know it</h2>
+          <p>Enjoy your trip with our reliable service, professional drivers, and stylish fleet.</p>
         </div>
-      </section>
+      </div>
+    </div>
     </>
   );
 };
