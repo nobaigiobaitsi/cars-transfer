@@ -17,11 +17,9 @@
   position: absolute;
   inset: 0;
   pointer-events: none;
-  background: radial-gradient(
-    ellipse at center,
-    rgba(0, 0, 0, 0) 40%,
-    rgba(0, 0, 0, 0.5) 90%
-  );
+  background: radial-gradient(ellipse at center,
+      rgba(0, 0, 0, 0) 40%,
+      rgba(0, 0, 0, 0.5) 90%);
   z-index: 1;
 }
 
@@ -72,19 +70,21 @@
   .hero {
     background-size: cover;
     background-position: top center;
-    width: 100%;
-    height: auto;
   }
+
   .hero-overlay {
     padding: 2rem 2.5rem;
     margin-bottom: 30px;
   }
+
   .hero-text h1 {
     font-size: 2.8rem;
   }
+
   .hero-text h2 {
     font-size: 1.8rem;
   }
+
   .hero-text p {
     font-size: 1.1rem;
   }
@@ -94,19 +94,21 @@
   .hero {
     background-size: cover;
     background-position: top center;
-    width: 100%;
-    height: auto;
   }
+
   .hero-overlay {
     padding: 1.5rem 2rem;
     margin-bottom: 20px;
   }
+
   .hero-text h1 {
     font-size: 2rem;
   }
+
   .hero-text h2 {
     font-size: 1.3rem;
   }
+
   .hero-text p {
     font-size: 0.95rem;
   }
