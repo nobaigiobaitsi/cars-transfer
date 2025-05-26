@@ -4,6 +4,8 @@
   padding: 4rem 2rem;
   background: linear-gradient(to bottom, #ADDEED, #6D9ECC);
   background-attachment: fixed;
+  justify-content: center;
+  align-items: center;
   display: flex;
   flex-direction: column;
   gap: 4rem;
@@ -27,7 +29,7 @@
   justify-content: center;
   gap: 2rem;
   flex-wrap: wrap;
-  max-width: 1200px;
+  max-width: 100%;
   margin: 0 auto;
 }
 
@@ -37,7 +39,7 @@
 
 .fleet-image {
   flex: 1 1 300px;
-  max-width: 500px;
+  max-width: 100%;
   height: auto;
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
