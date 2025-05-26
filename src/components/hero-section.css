@@ -72,6 +72,8 @@
   .hero {
     background-size: cover;
     background-position: top center;
+    width: 100%;
+    height: auto;
   }
   .hero-overlay {
     padding: 2rem 2.5rem;
@@ -92,6 +94,8 @@
   .hero {
     background-size: cover;
     background-position: top center;
+    width: 100%;
+    height: auto;
   }
   .hero-overlay {
     padding: 1.5rem 2rem;
