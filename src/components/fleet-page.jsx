@@ -4,8 +4,8 @@ const Fleet = () => {
     return (
         <>
         <div className="fleet-page">
-            <h1>Our Fleet</h1>
-            <p>Here is the selection of vehicles we offer</p>
+            <h1 className="fleet-title">Our Brilliant Fleet</h1>
+            <p className="fleet-description">Explore our diverse range of vehicles, each suited to different needs and preferences. Every vehicle is meticulously maintained and ready for your next adventure.</p>
             <div className="fleet-grid">
                 <div className="fleet-item">
                 <img src="/images/car1.jpg" alt="Car 1" />
