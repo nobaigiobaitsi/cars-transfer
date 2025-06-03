@@ -19,14 +19,10 @@ const Header = () => {
 
       <div className="hamburger" onClick={toggleMenu}>
         <div className={`bar ${isMenuOpen ? "open" : ""}`}></div>
-        <div className={`bar ${isMenuOpen ? "open" : ""}`}></div>
-        <div className={`bar ${isMenuOpen ? "open" : ""}`}></div>
       </div>
 
       <nav className={`nav-menu ${isMenuOpen ? "open" : ""}`}>
-        <a href="#info" onClick={() => setIsMenuOpen(false)}>Info</a>
-        <a href="#fleet" onClick={() => setIsMenuOpen(false)}>Fleet</a>
-        <a href="#contact" onClick={() => setIsMenuOpen(false)}>Contact</a>
+        <a href="https://www.greekendtransfers.com" onClick={() => setIsMenuOpen(false)}>Home</a>
       </nav>
     </header>
   );
