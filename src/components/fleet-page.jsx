@@ -1,6 +1,5 @@
 import "./fleet-page.css";
 
-
 const Fleet = () => {
     return (
         <>
@@ -28,3 +27,5 @@ const Fleet = () => {
         </>
     );
 }
+
+export default Fleet;
