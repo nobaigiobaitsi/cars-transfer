@@ -10,6 +10,14 @@
     z-index: 0;
 }
 
+.fleet-overlay {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    padding: 2rem 0;
+}
+
+
 .fleet-item {
     display: flex;
     flex-direction: row;
@@ -52,6 +60,8 @@
     margin: 0 auto;
     border-radius: 12px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 400px;
 }
 
 .fleet-item-title {
@@ -70,13 +80,27 @@
 }
 
 .fleet-item-overlay {
-    position: fixed;
-    justify-content: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1;
+    padding: 1rem;
 
 }
 
-#toyota-proace {
-    justify-content: right;
-    align-items: right;
-    display: flex;
+.fleet-item:hover {
+    transform: scale(1.02);
+    transition: transform 0.3s ease;
+}
+
+@media (max-width: 768px) {
+  .fleet-item {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .fleet-item-title,
+  .fleet-item-description {
+    text-align: center;
+  }
 }

@@ -1,9 +1,20 @@
 import "./fleet-page.css";
+import React, { useState } from "react";
+import ImageCarouselModal from './ImageCarouselModal';
 import logo1 from "../images/Toyota-9seater.png";
 import logo2 from "../images/Peugeot-508.png";
 import logo3 from "../images/Motorhome-van.png";
+import peugeot508 from "../images/peugeot508.js";
+
 
 const Fleet = () => {
+    const [showModal, setShowModal] = useState(false);
+    const [currentImages, setCurrentImages] = useState([]);
+
+    const handleImageClick = (images) => {
+        setCurrentImages(images);
+        setShowModal(true);
+    };
     return (
         <>
         <div className="fleet-page">
@@ -20,7 +31,8 @@ const Fleet = () => {
                     </div>
                 </div>
                 <div className="fleet-item" id="peugeot-508">
-                    <img src={logo2} alt="Peugeot 508" className="fleet-image"/>
+                    <img src={logo2} alt="Peugeot 508" className="fleet-image"
+                    onClick={() => handleImageClick(peugeot508)}/>
                     <div className="fleet-item-overlay">
                     <h2 className="fleet-item-title">Peugeot 508</h2>
                     <p className="fleet-item-description">Description of Peugeot 508.</p>
@@ -35,6 +47,9 @@ const Fleet = () => {
                 </div>
             </div>
         </div>
+        {showModal && (
+                <ImageCarouselModal images={currentImages} onClose={() => setShowModal(false)} />
+        )}
         </>
     );
 }
