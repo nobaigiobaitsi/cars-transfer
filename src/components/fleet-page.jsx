@@ -19,8 +19,9 @@ const Fleet = () => {
         <>
         <div className="fleet-page">
             <h1 className="fleet-title">Reliable Car Rentals & Transfer Services in Greece</h1>
-            <p className="fleet-description">Looking for the best vehicle rental or private transfer service in Greece? Discover our top-rated fleet — from luxury sedans and 9-seater vans to fully equipped motorhomes. Each vehicle is carefully maintained to provide a safe, smooth, and stylish ride for airport transfers, city travel, or road trips across Greece.</p>
-            <ul className="fleet-description">
+            <p className="fleet-description">Looking for the best vehicle rental or private transfer service in Greece? Discover our top-rated fleet — from luxury cars and 9-seater vans to fully equipped motorhomes. Each vehicle is carefully maintained to provide a safe, smooth, and stylish ride for airport transfers, city travel, or road trips across Greece.</p>
+            <ul className="fleet-description">In a few words, our fleet offers:
+                <li></li>
                 <li> Clean & comfortable interiors</li>
                 <li> Professional service & flexible bookings</li>
                 <li> Perfect for business trips, holidays, and family adventures</li>

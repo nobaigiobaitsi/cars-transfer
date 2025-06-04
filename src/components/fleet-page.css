@@ -53,6 +53,7 @@
 }
 
 .fleet-description li {
+    line-height: 1.6;
     padding-left: 0;
     list-style: none;
     text-align: center;
