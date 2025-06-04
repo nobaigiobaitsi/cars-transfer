@@ -18,10 +18,14 @@ const Fleet = () => {
     return (
         <>
         <div className="fleet-page">
-            <h1 className="fleet-title">Our Brilliant Fleet</h1>
-            <p className="fleet-description">Explore our diverse range of vehicles, each suited to different needs and preferences. Every vehicle is meticulously maintained and ready for your next adventure.</p>
-            <p className="fleet-description">Whether you want to move quickly through the city, go to the airport or embark on a road trip, explore Greece and travel, we have you covered.</p>
-            <p className="fleet-description">Choose the perfect vehicle for your journey:</p>
+            <h1 className="fleet-title">Reliable Car Rentals & Transfer Services in Greece</h1>
+            <p className="fleet-description">Looking for the best vehicle rental or private transfer service in Greece? Discover our top-rated fleet — from luxury sedans and 9-seater vans to fully equipped motorhomes. Each vehicle is carefully maintained to provide a safe, smooth, and stylish ride for airport transfers, city travel, or road trips across Greece.</p>
+            <ul className="fleet-description">
+                <li> Clean & comfortable interiors</li>
+                <li> Professional service & flexible bookings</li>
+                <li> Perfect for business trips, holidays, and family adventures</li>
+            </ul>
+            <p className="fleet-description">Browse our fleet below and click on any vehicle to view more photos and details. Book with confidence and travel in style!</p>
             <div className="fleet-overlay">
                 <div className="fleet-item" id="toyota-proace">
                     <img src={logo1} alt="Toyota Proace" className="fleet-image"/>
@@ -35,7 +39,7 @@ const Fleet = () => {
                     onClick={() => handleImageClick(peugeot508)}/>
                     <div className="fleet-item-overlay">
                     <h2 className="fleet-item-title">Peugeot 508</h2>
-                    <p className="fleet-item-description">Description of Peugeot 508.</p>
+                    <p className="fleet-item-description">The Peugeot 508 combines sleek design, advanced technology, and smooth performance — making it an ideal choice for both private transfers and personal rentals. With a spacious, elegant interior and a refined ride, it ensures comfort whether you're navigating city streets or enjoying long-distance travel.</p>
                     </div>
                 </div>
                 <div className="fleet-item" id="motorhome-van">
