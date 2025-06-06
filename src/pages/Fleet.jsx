@@ -17,16 +17,23 @@ const Fleet = () => {
     };
     return (
         <>
-        <div className="fleet-page">
-            <h1 className="fleet-title">Reliable Car Rentals & Transfer Services in Greece</h1>
-            <p className="fleet-description">Looking for the best vehicle rental or private transfer service in Greece? Discover our top-rated fleet — from luxury cars and 9-seater vans to fully equipped motorhomes. Each vehicle is carefully maintained to provide a safe, smooth, and stylish ride for airport transfers, city travel, or road trips across Greece.</p>
-            <ul className="fleet-description">In a few words, our fleet offers:
-                <li></li>
-                <li> Clean & comfortable interiors</li>
-                <li> Professional service & flexible bookings</li>
-                <li> Perfect for business trips, holidays, and family adventures</li>
-            </ul>
-            <p className="fleet-description">Browse our fleet below and click on any vehicle to view more photos and details. Book with confidence and travel in style!</p>
+        <div className="fleet-main-top">
+            <h1 className="fleet-title">Explore Greece in Comfort & Style</h1>
+            <p className="fleet-subtitle">Modern cars, vans, and motorhomes — perfect for transfers, road trips, and unforgettable holidays.</p>
+
+            <div className="fleet-highlights">
+            <div className="highlight-item">
+                <p className="highlight-label">Modern & Comfortable</p>
+            </div>
+            <div className="highlight-item">
+                <p className="highlight-label">Professional Drivers</p>
+            </div>
+            <div className="highlight-item">
+                <p className="highlight-label">Travel Ready</p>
+            </div>
+            </div>
+
+            <p className="fleet-cta">Browse our fleet below and click any vehicle to see more photos & details.</p>
             <div className="fleet-overlay">
                 <div className="fleet-item" id="toyota-proace">
                     <img src={logo1} alt="Toyota Proace" className="fleet-image"/>

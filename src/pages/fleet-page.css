@@ -42,14 +42,22 @@
     letter-spacing: 1px;
 }
 
+#fleet-list {
+    background: rgba(221, 217, 217, 0.8);
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4px);
+}
+
 .fleet-description {
-  font-size: 2.0rem;
-  font-weight: 700;
-  color: #002244;
-  text-align: center;
-  margin-bottom: 3rem;
-  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6);
-  letter-spacing: 1px;
+    font-size: 2.0rem;
+    font-weight: 700;
+    color: #002244;
+    text-align: center;
+    margin-bottom: 3rem;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6);
+    letter-spacing: 1px;
 }
 
 .fleet-description li {
@@ -103,11 +111,6 @@
 
 }
 
-.fleet-item:hover {
-    transform: scale(1.02);
-    transition: transform 0.3s ease;
-}
-
 @media (max-width: 768px) {
   .fleet-item {
     flex-direction: column;
@@ -118,4 +121,49 @@
   .fleet-item-description {
     text-align: center;
   }
+}
+
+.fleet-subtitle {
+    font-size: 1.8rem;
+    text-align: center;
+    color: #003366;
+    margin-bottom: 2rem;
+    font-weight: 500;
+}
+
+.fleet-highlights {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+.highlight-item {
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 1rem;
+    padding: 1.2rem 2rem;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+    min-width: 220px;
+    text-align: center;
+}
+
+.highlight-label {
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: #002244;
+    margin: 0;
+}
+
+.fleet-cta {
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 1.6rem;
+    color: #002244;
+    font-weight: 500;
+}
+
+.fleet-main-top {
+    background: linear-gradient(to bottom, #ADDEED, #6D9ECC);
 }
