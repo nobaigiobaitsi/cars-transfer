@@ -1,10 +1,10 @@
-import "../components/fleet-page.css";
+import "../pages/fleet-page.css";
 import React, { useState } from "react";
 import ImageCarouselModal from '../components/ImageCarouselModal.jsx';
 import logo1 from "../images/Toyota-9seater.png";
 import logo2 from "../images/Peugeot-508.png";
 import logo3 from "../images/Motorhome-van.png";
-import peugeot508 from "../images/";
+import peugeot508 from "../images/peugeot508.js";
 
 
 const Fleet = () => {

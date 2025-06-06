@@ -1,6 +1,8 @@
 import { useState } from "react";
 import "./Header.css";
 import logo from "../images/main-logo.jpg";
+import { Link } from "react-router-dom";
+
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -25,7 +27,7 @@ const Header = () => {
 
       <nav className={`nav-menu ${isMenuOpen ? "open" : ""}`}>
         <a href="#info" onClick={() => setIsMenuOpen(false)}>Info</a>
-        <a href="#fleet" onClick={() => setIsMenuOpen(false)}>Fleet</a>
+        <Link to="/fleet" onClick={() => setIsMenuOpen(false)}>Fleet</Link>
         <a href="#contact" onClick={() => setIsMenuOpen(false)}>Contact</a>
       </nav>
     </header>
