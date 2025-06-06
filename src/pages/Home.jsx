@@ -1,4 +1,3 @@
-import Header from '../components/header.jsx'
 import HeroSection from '../components/hero-section.jsx'
 import Info from '../components/info.jsx'
 import FleetHome from '../components/fleet-home.jsx'

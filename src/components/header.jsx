@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "./Header.css";
 import logo from "../images/main-logo.jpg";
-import { Link, useLocation } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 
 const Header = () => {
