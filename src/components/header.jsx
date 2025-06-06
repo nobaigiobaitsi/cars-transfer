@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "./Header.css";
 import logo from "../images/main-logo.jpg";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
 
 const Header = () => {
@@ -26,9 +26,9 @@ const Header = () => {
       </div>
 
       <nav className={`nav-menu ${isMenuOpen ? "open" : ""}`}>
-        <a href="#info" onClick={() => setIsMenuOpen(false)}>Info</a>
+        <Link to="/#info" onClick={() => setIsMenuOpen(false)}>Info</Link>
         <Link to="/fleet" onClick={() => setIsMenuOpen(false)}>Fleet</Link>
-        <a href="#contact" onClick={() => setIsMenuOpen(false)}>Contact</a>
+        <Link to="/#contact" onClick={() => setIsMenuOpen(false)}>Contact</Link>
       </nav>
     </header>
   );

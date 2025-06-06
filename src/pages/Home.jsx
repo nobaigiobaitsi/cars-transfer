@@ -7,7 +7,6 @@ import Contact from '../components/contact.jsx'
 const Home = () => {
   return (
     <>
-      <Header />
       <HeroSection />
       <Info />
       <FleetHome />
