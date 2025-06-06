@@ -28,7 +28,7 @@ const Header = () => {
       <nav className={`nav-menu ${isMenuOpen ? "open" : ""}`}>
         <Link to="/#info" onClick={() => setIsMenuOpen(false)}>Info</Link>
         <Link to="/fleet" onClick={() => setIsMenuOpen(false)}>Fleet</Link>
-        <Link to="/#contact" onClick={() => setIsMenuOpen(false)}>Contact</Link>
+        <Link to="/contactPage" onClick={() => setIsMenuOpen(false)}>Contact</Link>
       </nav>
     </header>
   );

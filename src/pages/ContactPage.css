@@ -1,0 +1,61 @@
+.contact-page {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  background: url('../images/custom-logo-dark-no-veh.png') center/cover no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem 2rem;
+  box-sizing: border-box;
+  color: #0d1b2a;
+}
+
+.contact-overlay {
+  background-color: rgba(255, 255, 255, 0.75);
+  padding: 3rem;
+  border-radius: 16px;
+  max-width: 1200px;
+  width: 100%;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.contact-title {
+  font-size: 2.8rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  color: #002244;
+}
+
+.contact-description {
+  font-size: 1.15rem;
+  line-height: 1.8;
+  margin-bottom: 2rem;
+  color: #333;
+}
+
+.contact-details {
+  list-style: none;
+  padding: 0;
+  margin: 0 auto 2rem auto;
+  font-size: 1.2rem;
+  color: #002b5c;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.contact-details li {
+  margin: 0.5rem 0;
+}
+
+.contact-details a {
+  color: #1a73e8;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.contact-details a:hover {
+  color: #0d47a1;
+  text-decoration: underline;
+}

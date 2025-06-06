@@ -1,8 +1,8 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import Fleet from "./pages/Fleet";
-import { Link } from "react-router-dom";
 import Layout from './components/Layout';
+import ContactPage from "./pages/ContactPage";
 
 
 const App = () => {
@@ -11,6 +11,7 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Layout><Home /></Layout>} />
         <Route path="/fleet" element={<Layout><Fleet /></Layout>} />
+        <Route path="/contactPage" element={<Layout><ContactPage /></Layout>} />
       </Routes>
     </Router>
   );
