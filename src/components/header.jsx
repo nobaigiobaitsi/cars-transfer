@@ -30,7 +30,7 @@ const Header = () => {
       </div>
 
       <nav className={`nav-menu ${isMenuOpen ? "open" : ""}`}>
-        <Link to="/#info" onClick={() => setIsMenuOpen(false)}>Info</Link>
+        <Link to="/#info" onClick={() => setIsMenuOpen(false)}>Home</Link>
         <Link to="/fleet" onClick={() => setIsMenuOpen(false)}>Fleet</Link>
         <Link to="/contactPage" onClick={() => setIsMenuOpen(false)}>Contact</Link>
       </nav>

@@ -5,6 +5,8 @@ import logo1 from "../images/Toyota-9seater.png";
 import logo2 from "../images/Peugeot-508.png";
 import logo3 from "../images/Motorhome-van.png";
 import peugeot508 from "../images/peugeot508.js";
+import toyotaProace from "../images/toyotaProace.js";
+import camperVan from "../images/camperVan.js";
 
 
 const Fleet = () => {
@@ -36,10 +38,11 @@ const Fleet = () => {
             <p className="fleet-cta">Browse our fleet below and click any vehicle to see more photos & details.</p>
             <div className="fleet-overlay">
                 <div className="fleet-item" id="toyota-proace">
-                    <img src={logo1} alt="Toyota Proace" className="fleet-image"/>
+                    <img src={logo1} alt="Toyota Proace" className="fleet-image"
+                    onClick={() => handleImageClick(toyotaProace)}/>
                     <div className="fleet-item-overlay">
                     <h2 className="fleet-item-title">Toyota Proace</h2>
-                    <p className="fleet-item-description">Description of Toyota Proace.</p>
+                    <p className="fleet-item-description">Travel together in our spacious Toyota Proace. With seating for up to 8 passengers and generous room for luggage, it's the perfect choice for families and groups looking for a comfortable and seamless transfer.</p>
                     </div>
                 </div>
                 <div className="fleet-item" id="peugeot-508">
@@ -51,10 +54,11 @@ const Fleet = () => {
                     </div>
                 </div>
                 <div className="fleet-item" id="motorhome-van">
-                    <img src={logo3} alt="Motorhome Van" className="fleet-image"/>
+                    <img src={logo3} alt="Motorhome Van" className="fleet-image"
+                    onClick={() => handleImageClick(camperVan)}/>
                     <div className="fleet-item-overlay">
-                    <h2 className="fleet-item-title">Motorhome Van</h2>
-                    <p className="fleet-item-description">Description of Motorhome Van.</p>
+                    <h2 className="fleet-item-title">Renault Kentucky Motorhome</h2>
+                    <p className="fleet-item-description">Embrace the freedom of the open road in our classic Renault Kentucky. Featuring the iconic over-cab sleeping area for a cozy and memorable stay, this motorhome is your all-in-one solution for transport and accommodation. Perfect for creating unforgettable travel memories.</p>
                     </div>
                 </div>
             </div>
