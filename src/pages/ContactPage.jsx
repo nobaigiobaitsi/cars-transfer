@@ -23,9 +23,14 @@ const ContactPage = () => {
                     <FontAwesomeIcon icon={faInstagram} /> @greekendtransfers
                 </a>
             </li>*/}
+            <li>
+                <strong>Instagram:</strong>
+                <a href="https://www.instagram.com/greekendtranfers_?igsh=MXM2eG1hdHAzbjdzYg==" target="_blank" rel="noopener noreferrer">
+                    @greekendtransfers
+                </a>
+            </li>
         </ul>
-
-        {/* Space for contact form when cheap clients pay :)*/}
+        {/* Space for contact form :)*/}
       </div>
     </section>
   );

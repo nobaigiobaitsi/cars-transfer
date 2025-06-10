@@ -12,9 +12,11 @@ const Header = () => {
   return (
     <header className="header">
       <div className="logo-title">
-        <img src={logo} alt="Greekend Transfers Logo" className="logo" />
+        <a href="https://www.greekendtransfers.com">
+          <img src={logo} alt="Greekend Transfers Logo" className="logo" />
+        </a>
         <div>
-          <h1 className="site-title">Greekend Transfers</h1>
+          <h1 className="site-title" href="https://www.greekendtransfers.com">Greekend Transfers</h1>
           <p className="established">est. 2021</p>
         </div>
       </div>
