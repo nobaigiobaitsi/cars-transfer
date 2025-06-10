@@ -12,11 +12,13 @@ const Header = () => {
   return (
     <header className="header">
       <div className="logo-title">
-        <a href="https://www.greekendtransfers.com">
+        <Link to="/">
           <img src={logo} alt="Greekend Transfers Logo" className="logo" />
-        </a>
+        </Link>
         <div>
-          <h1 className="site-title" href="https://www.greekendtransfers.com">Greekend Transfers</h1>
+          <Link to="/" className="site-title-link">
+          <h1 className="site-title">Greekend Transfers</h1>
+          </Link>
           <p className="established">est. 2021</p>
         </div>
       </div>
