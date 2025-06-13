@@ -11,7 +11,7 @@ const FleetHome = () => {
         <img src={logo} alt="Peugeot 508" className="fleet-home-image left" />
         <div className="fleet-home-info">
           <h3>Peugeot 508</h3>
-          <p>Comfortable and stylish, perfect for VIP transfers or business travel. Leather interior, AC, Wi-Fi.</p>
+          <p>Comfortable and stylish, perfect for VIP transfers or business travel. Leather interior and AC.</p>
         </div>
       </div>
       <div className="fleet-home-item reverse">
