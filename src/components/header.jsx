@@ -27,12 +27,15 @@ const Header = () => {
         <div className={`bar ${isMenuOpen ? "open" : ""}`}></div>
         <div className={`bar ${isMenuOpen ? "open" : ""}`}></div>
         <div className={`bar ${isMenuOpen ? "open" : ""}`}></div>
+        <div className={`bar ${isMenuOpen ? "open" : ""}`}></div>
       </div>
 
       <nav className={`nav-menu ${isMenuOpen ? "open" : ""}`}>
         <Link to="/#info" onClick={() => setIsMenuOpen(false)}>Home</Link>
         <Link to="/fleet" onClick={() => setIsMenuOpen(false)}>Fleet</Link>
         <Link to="/contactPage" onClick={() => setIsMenuOpen(false)}>Contact</Link>
+        <Link to="/transfers" onClick={() => setIsMenuOpen(false)}>Transfers</Link>
+
       </nav>
     </header>
   );

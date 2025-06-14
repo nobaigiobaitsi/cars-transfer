@@ -4,7 +4,7 @@ import Fleet from "./pages/Fleet";
 import Layout from './components/Layout';
 import ContactPage from "./pages/ContactPage";
 import ScrollToTop from "./components/ScrollToTop";
-
+import Transfers from './pages/Transfers';
 
 const App = () => {
   return (
@@ -14,6 +14,7 @@ const App = () => {
         <Route path="/" element={<Layout><Home /></Layout>} />
         <Route path="/fleet" element={<Layout><Fleet /></Layout>} />
         <Route path="/contactPage" element={<Layout><ContactPage /></Layout>} />
+        <Route path="/transfers" element={<Layout><Transfers /></Layout>} />
       </Routes>
     </Router>
   );
