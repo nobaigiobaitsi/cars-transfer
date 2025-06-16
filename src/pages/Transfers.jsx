@@ -32,6 +32,8 @@ const Transfers = () => {
             ))}
           </tbody>
         </table>
+        <p className="transfers-alternative">Couldn't find the destination you want? Don't worry.</p>
+        <p className="transfers-alternative">Get in touch with us and we will take care of it.</p>
       </section>
     </main>
   );

@@ -49,3 +49,8 @@
 .transfers-pricing th {
     background-color: #e2e8f0;
 }
+
+.transfers-alternative {
+    color: #002244;
+    margin-top: 0.2rem;
+}
