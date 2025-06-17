@@ -1,0 +1,130 @@
+.rental-page {
+  position: relative;
+  width: 100%;
+  padding: 4rem 2rem;
+  background: linear-gradient(to bottom, #ADDEED, #4A83B9);
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  z-index: 0;
+}
+
+.rental-overlay {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  padding: 2rem 0;
+}
+
+.rental-title {
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: #002244;
+  text-align: center;
+  margin-bottom: 1rem;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6);
+  letter-spacing: 1px;
+}
+
+.rental-subtitle {
+  font-size: 1.8rem;
+  text-align: center;
+  color: #003366;
+  margin-bottom: 2rem;
+  font-weight: 500;
+}
+
+.rental-item {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background: rgba(221, 217, 217, 0.8);
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(4px);
+  color: #002b5c;
+}
+
+.rental-item-overlay {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 1;
+  padding: 1rem;
+}
+
+.rental-image {
+  flex: 1;
+  max-width: 400px;
+  width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  margin-right: 2rem;
+  object-fit: cover;
+}
+
+.rental-item-title {
+  font-size: 2.4rem;
+  font-weight: 600;
+  color: #002244;
+  margin-bottom: 1rem;
+  text-align: left;
+}
+
+.rental-item-description {
+  font-size: 1.6rem;
+  color: #002244;
+  text-align: left;
+  margin-bottom: 1.5rem;
+}
+
+.rental-features {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+.rental-features li {
+  font-size: 1.6rem;
+  color: #002244;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+}
+
+.rental-button {
+  display: inline-block;
+  margin-top: 1.5rem;
+  padding: 0.75rem 1.5rem;
+  background-color: #1f4e79;
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease;
+}
+
+.rental-button:hover {
+  background-color: #163b5d;
+}
+
+@media (max-width: 768px) {
+  .rental-item {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .rental-image {
+    margin-bottom: 1.5rem;
+    margin-right: 0;
+  }
+
+  .rental-item-title,
+  .rental-item-description {
+    text-align: center;
+  }
+}

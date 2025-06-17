@@ -35,7 +35,7 @@ const Header = () => {
         <Link to="/fleet" onClick={() => setIsMenuOpen(false)}>Fleet</Link>
         <Link to="/contactPage" onClick={() => setIsMenuOpen(false)}>Contact</Link>
         <Link to="/transfers" onClick={() => setIsMenuOpen(false)}>Transfers</Link>
-
+        <Link to="/rental" onClick={() => setIsMenuOpen(false)}>Rental</Link>
       </nav>
     </header>
   );

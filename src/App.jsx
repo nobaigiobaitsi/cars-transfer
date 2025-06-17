@@ -5,6 +5,7 @@ import Layout from './components/Layout';
 import ContactPage from "./pages/ContactPage";
 import ScrollToTop from "./components/ScrollToTop";
 import Transfers from './pages/Transfers';
+import Rental from "./pages/Rental";
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
         <Route path="/fleet" element={<Layout><Fleet /></Layout>} />
         <Route path="/contactPage" element={<Layout><ContactPage /></Layout>} />
         <Route path="/transfers" element={<Layout><Transfers /></Layout>} />
+        <Route path="/rental" element={<Layout><Rental /></Layout>} />
       </Routes>
     </Router>
   );

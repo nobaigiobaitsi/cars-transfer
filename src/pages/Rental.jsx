@@ -3,33 +3,40 @@ import './rental.css';
 
 const Rental = () => {
   return (
-    <main className="rental-container">
-      <section className="rental-hero">
-        <h1>Explore Greece with Comfort</h1>
-        <p>Rent our fully-equipped motorhome and discover the beauty of Greece at your own pace. Whether it's the coast, the mountains, or historic villages — travel your way, in your time.</p>
-      </section>
+    <div className="rental-page">
+      <div className="rental-overlay">
+        <h1 className="rental-title">Motorhome Rental in Greece</h1>
 
-      <section className="rental-features">
-        <h2>Motorhome Features</h2>
-        <ul>
-          <li>Sleeps 5 comfortably</li>
-          <li>Fully-equipped kitchen</li>
-          <li>Private bathroom with shower</li>
+        <p className="rental-subtitle">
+          Discover Greece in total freedom with our fully-equipped motorhome. Perfect for groups, couples, families, or solo travelers.
+        </p>
+        <p className="rental-subtitle">Talk to us and we can help you organise the perfect trip anywhere on Greece. We will give you suggestions and ideas that will assist you in discovering the charms of our beautiful country.</p>
+
+        <div className="rental-item">
+          <img src="../images/Motorhome-van.png" alt="Motorhome Campervan" className="rental-image" />
+          <div className="rental-item-overlay">
+            <h2 className="rental-item-title">Your Home on the Road</h2>
+            <p className="rental-item-description">
+              Enjoy comfort and flexibility with a spacious motorhome that includes sleeping space for 4, kitchen, bathroom, and more.
+            </p>
+          </div>
+        </div>
+
+        <h2 className="rental-subtitle">What's Included</h2>
+        <ul className="rental-features">
+          <li>Sleeps up to 4 people</li>
+          <li>Fully-equipped kitchenette</li>
+          <li>Bathroom with shower</li>
           <li>Air conditioning & heating</li>
         </ul>
-      </section>
 
-      <section className="rental-benefits">
-        <h2>Why Choose Our Rental?</h2>
-        <p>We offer a reliable, clean, and adventure-ready vehicle — perfect for couples, families, or solo travelers who want to explore Greece without the limits of hotels and fixed itineraries.</p>
-      </section>
-
-      <section className="rental-cta">
-        <h3>Ready to Start Your Journey?</h3>
-        <p>Contact us today for availability, pricing, and custom route suggestions.</p>
-        <a href="/contact" className="rental-button">Contact Us</a>
-      </section>
-    </main>
+        <div className="fleet-cta">
+          <p>
+            Ready to plan your trip? Contact us today and let’s make your dream road trip through Greece a reality.
+          </p>
+        </div>
+      </div>
+    </div>
   );
 };
 
