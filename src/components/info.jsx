@@ -18,8 +18,8 @@ const Info = () => {
         <ul className="info-highlights">
           <li><strong className="info-links"><Link to="/transfers">Transfers</Link></strong> - Economy & VIP transfers, with a state-of-the-art minivan or a classy and powerful car for families, individuals or groups looking for comfort and reliability.
           </li>
-          <li><strong>Tours</strong> - Customized tours to explore the beauty of Greece, with knowledgeable guides and flexible itineraries. Explore Greece and discover its history and charm.</li>
-          <li><strong>Rental</strong> - Motorhome (camper van) rental for those who want to explore Greece with freedom and comfort, ideal for road trips and vacations in style.</li>
+          <li><strong className="info-links">Tours</strong> - Customized tours to explore the beauty of Greece, with knowledgeable guides and flexible itineraries. Explore Greece and discover its history and charm.</li>
+          <li><strong className="info-links"><Link to='/rental'>Tours</Link></strong> - Motorhome (camper van) rental for those who want to explore Greece with freedom and comfort, ideal for road trips and vacations in style.</li>
         </ul>
       </div>
     </div>
