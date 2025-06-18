@@ -10,11 +10,17 @@
   z-index: 0;
 }
 
+/*.rental-top {
+  background-image: url(../images/background-map-dark.png);
+
+}
+*/
 .rental-overlay {
   display: flex;
   flex-direction: column;
   gap: 3rem;
   padding: 2rem 0;
+
 }
 
 .rental-title {
@@ -47,7 +53,7 @@
 
 .rental-item {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: wrap;
   background: rgba(221, 217, 217, 0.8);
   border-radius: 12px;
@@ -67,7 +73,7 @@
 
 .rental-image {
   flex: 1;
-  max-width: 400px;
+  max-width: auto;
   width: 100%;
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
@@ -115,10 +121,6 @@
   border-radius: 8px;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
   transition: background-color 0.3s ease;
-}
-
-.rental-button:hover {
-  background-color: #163b5d;
 }
 
 @media (max-width: 768px) {
