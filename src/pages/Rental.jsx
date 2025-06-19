@@ -1,7 +1,6 @@
 import React from 'react';
 import './rental.css';
-import logo1 from '../images/Motorhome-van.png'
-
+import logo1 from '../images/Motorhome-van.png';
 
 const Rental = () => {
   return (
