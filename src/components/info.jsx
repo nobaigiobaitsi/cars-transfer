@@ -19,7 +19,7 @@ const Info = () => {
           <li><strong className="info-links">Transfers</strong> - Economy & VIP transfers, with a state-of-the-art minivan or a classy and powerful car for families, individuals or groups looking for comfort and reliability.
           </li>
           <li><strong className="info-links">Tours</strong> - Customized tours to explore the beauty of Greece, with knowledgeable guides and flexible itineraries. Explore Greece and discover its history and charm.</li>
-          <li><strong className="info-links"><Link to='/rental'>Rental</Link></strong> - Motorhome (camper van) rental for those who want to explore Greece with freedom and comfort, ideal for road trips and vacations in style.</li>
+          <li><Link to='/rental' className="info-links"><strong>Rental</strong> - Motorhome (camper van) rental for those who want to explore Greece with freedom and comfort, ideal for road trips and vacations in style.</Link></li>
         </ul>
       </div>
     </div>
